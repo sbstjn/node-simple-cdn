@@ -8,8 +8,7 @@ Usage
 
     // or use this
     
-    sCDN.addHost('http://s1.hazelco.de').addHost('http://s2.hazelco.de')
-.addHost('http://s3.hazelco.de');
+    sCDN.addHost('http://s1.hazelco.de').addHost('http://s2.hazelco.de').addHost('http://s3.hazelco.de');
     
     // or use this
     
