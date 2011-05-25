@@ -1,4 +1,4 @@
-Usage
+This is a simple NodeJS script for ballancing static file requests over multiple hosts. This is useful if you want to use CDN (Content Delivery Network) within your application. See the `examples` folder for two example scripts.
 
     var sCDN = require('path/to/simple-cdn/libs/');
 
@@ -7,7 +7,6 @@ Usage
     sCDN.addHost('http://s3.hazelco.de');
 
     // or use this
-    
     sCDN.addHost('http://s1.hazelco.de').addHost('http://s2.hazelco.de').addHost('http://s3.hazelco.de');
     
     // or use this
